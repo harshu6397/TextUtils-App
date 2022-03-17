@@ -1,7 +1,8 @@
-# I have create this file --> Harsh Kumar
+# Importing necessary libraries
 from django.shortcuts import render
 import string
 
+# code to render the home page or index page
 def index(request):
     return render(request, 'index.html', {'error' : ' '})
 
