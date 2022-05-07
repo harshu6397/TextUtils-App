@@ -127,5 +127,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 ALLOWED_HOSTS = [
     '0.0.0.0'
     'https://text-utils-application.herokuapp.com/',
+    'text-utils-application.herokuapp.com',
     '127.0.0.1'
 ]
